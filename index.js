@@ -22,7 +22,7 @@ let myserver = myhttp.createServer(
     if ( myrequest.url === "/luke" ) {
       mytext = "I ain't yo daddy";
     } else {
-      mytext = "No idea what you just said. Try again.";
+      mytext = "No idea what you just said. Try again please.";
     }
     // writeHead() creates an http response header, including the status code (200 OK), the content type
     myresponse.writeHead( 200, { "Content-Type": "text/plain" } );
